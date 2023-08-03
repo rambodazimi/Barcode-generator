@@ -1,7 +1,7 @@
 # Barcode-generator
 The Barcode Generator App is a Python-based tool that provides a Graphical User Interface (GUI) for generating barcode images for various barcode types. The application utilizes the python-barcode library, which offers support for different barcode formats such as EAN13, EAN8, CODE128, CODE39, and more.
 
-Key Features:
+## Key Features:
 
 User Interface (UI): The app features a clean and user-friendly UI, created using the tkinter library. The UI consists of input fields for numbers and barcode type selection, a "Generate Barcodes" button, and informative labels.
 
@@ -13,7 +13,7 @@ Error Handling: The application handles potential errors, such as unsupported ba
 
 File Management: The generated barcode images are automatically saved in the "Downloads" folder of the user's system. This organization simplifies access and retrieval of the generated barcodes.
 
-Technical Implementation:
+## Technical Implementation:
 
 python-barcode Library: The core functionality of the app relies on the python-barcode library. It provides access to various barcode types and handles the barcode generation process.
 
@@ -23,7 +23,7 @@ Exception Handling: The app employs try-except blocks to handle potential except
 
 Path Manipulation: The app leverages the os module to manage file paths and save the barcode images in the appropriate folder.
 
-Use Cases:
+## Use Cases:
 
 Retail: Generate EAN13 or EAN8 barcodes for product labeling and inventory management.
 Logistics: Create CODE128 barcodes for tracking and managing assets during shipping and logistics operations.
